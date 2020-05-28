@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//unpkg.com/d3"></script>
+  <script src="//unpkg.com/globe.gl"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+  <title>Коронавирус</title>
+</head>
+<body>
+  <div class="top_info">
+    <h1 class="top_info-title">Коронавирус</h1>
+    <h2 class="top_info-subtitle">Наведите на страну, чтобы получить информацию о числе зараженных.</h2>
+  </div>
+  <div id="globeViz"></div>
+  <div class="bottom_info">
+    <h3>Зараженных: <span class="total"></span></h3>
+    <h3>Выздоровивших: <span class="recovered"></span></h3>
+    <h3>Смертей: <span class="deaths"></span></h3>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

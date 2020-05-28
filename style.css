@@ -1,0 +1,70 @@
+
+body {
+    font-size: 62.5%;
+    box-sizing: border-box;      
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #globeViz {
+    overflow: hidden;
+  }
+
+  .top_info {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .bottom_info {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    color: #ffffff;
+    bottom: 0;
+  }
+
+  .top_info-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .top_info-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .card {
+    min-width: 10rem;
+    height: 15rem;
+    background: rgb(15,32,39);
+    background: linear-gradient(90deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 35%, rgba(44,83,100,1) 100%);    border-radius: 10px;
+    border: 2px solid black;
+  }
+
+  .card_title {
+    border-bottom: 2px solid white;
+    padding: .5rem;
+  }
+  
+  .card_info {
+    font-size: 1.3rem;
+    padding-left: .5rem;
+  }
+
+  .card_info:last-of-type {
+    padding-bottom: 2rem;
+  }
+  .recovered {
+    color: green;
+  }
+
+  .deaths {
+    color: red;
+  }
